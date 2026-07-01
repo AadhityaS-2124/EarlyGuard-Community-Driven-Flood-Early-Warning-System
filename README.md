@@ -330,7 +330,7 @@ We extend our gratitude to:
 
 ### ⭐ If you find this project useful, please star it!
 
-Made with ❤️ by the EarlyGuard Community
+Made with ❤️ by Aadhitya S
 
 [⬆ Back to top](#-earlyguard)
 
