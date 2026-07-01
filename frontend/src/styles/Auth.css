@@ -1,0 +1,145 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px); /* Adjust for header height */
+  padding: 2rem;
+  background-color: #f5f7fa;
+}
+
+.auth-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 100%;
+  max-width: 480px;
+}
+
+.auth-card h2 {
+  font-size: 1.8rem;
+  color: #1a73e8;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.auth-subtitle {
+  color: #5f6368;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #202124;
+}
+
+.form-group input {
+  padding: 0.75rem;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #1a73e8;
+  box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.2);
+}
+
+.form-help {
+  font-size: 0.8rem;
+  color: #5f6368;
+  margin-top: 0.25rem;
+}
+
+.phone-group .phone-input {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.country-code-select {
+  padding: 0.75rem;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  background-color: white;
+  flex: 0 0 auto;
+  min-width: 150px;
+}
+
+.phone-input input {
+  flex: 1;
+}
+
+.auth-button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.2s;
+}
+
+.auth-button:hover {
+  background-color: #1765cc;
+}
+
+.auth-button:disabled {
+  background-color: #a8c7fa;
+  cursor: not-allowed;
+}
+
+.auth-error {
+  background-color: #fdeded;
+  border: 1px solid #f5c2c7;
+  color: #842029;
+  padding: 0.75rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.auth-footer {
+  margin-top: 1.5rem;
+  text-align: center;
+  color: #5f6368;
+}
+
+.auth-footer a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.auth-footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  .auth-card {
+    padding: 1.5rem;
+  }
+  
+  .phone-group .phone-input {
+    flex-direction: column;
+  }
+  
+  .country-code-select {
+    width: 100%;
+  }
+} 

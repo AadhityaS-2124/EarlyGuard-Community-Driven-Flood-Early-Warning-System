@@ -1,0 +1,13 @@
+{
+  "name": "earlyguard-root",
+  "version": "1.0.0",
+  "description": "EarlyGuard Community-Driven Flood Early Warning System",
+  "private": true,
+  "scripts": {
+    "start": "npm start --prefix frontend",
+    "dev": "npm start --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "postinstall": "npm install --prefix frontend",
+    "server": "node backend/basic-server.js"
+  }
+}
